@@ -1,8 +1,10 @@
+import ExpenseItem from './components/ExpenseItem';
+
 function App() {
   return (
     <div>
       <h2>Welcome to my React App</h2>
-      <p>Let's start learning!</p>
+      <ExpenseItem></ExpenseItem>
     </div>
   );
 }
